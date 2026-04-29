@@ -1,25 +1,60 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fest Website Launch</title>
-  <link rel="stylesheet" href="inag.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PMSA Wafy College App | Launch</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1 class="title">PMSA Arts Fest 2025-26</h1>
-    <p class="subtitle">Fest Website – Opening Now</p>
-
-    <div class="image-wrapper">
-      <img src="Logo_Blue.png" alt="Library Illustration" />
-    </div>
-
-    <div class="launch-button">
-      <a href="https://qul-2026.vercel.app/" target="_blank">
-        <button>🚀 Launch Website</button>
-      </a>
-    </div>
+  <!-- Animated Background -->
+  <div class="bg-wrapper">
+    <span class="blob blob1"></span>
+    <span class="blob blob2"></span>
+    <span class="blob blob3"></span>
+    <div class="grid"></div>
   </div>
+  <!-- Main Container -->
+  <main class="launch-page">
+
+    <section class="card">
+      <p class="badge">Official Product Launch</p>
+      <h1 class="title">PMSA Wafy College App</h1>
+      <p class="subtitle">
+        Official Digital Platform for Students & Campus Management
+      </p>
+
+      <p class="tagline">
+        Smart. Connected. Academic Excellence.
+      </p>
+
+      <!-- Logo -->
+      <div class="logo-shell">
+        <div class="pulse-ring"></div>
+        <div class="logo-card">
+          <!-- Replace src with your logo -->
+          <img src="logo.png" alt="PMSA Wafy App Logo">
+        </div>
+      </div>
+
+      <!-- Launch Button -->
+      <button class="launch-btn" id="launchBtn">
+        <span>🚀 Launch App</span>
+      </button>
+
+      <footer class="footer">
+        <p>Powered by PMSA Wafy Student</p>
+        <span id="year"></span>
+      </footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
