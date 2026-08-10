@@ -4,26 +4,23 @@ const launchBtn = document.getElementById("launchBtn");
 const year = document.getElementById("year");
 
 // Current year
-year.textContent = `© ${new Date().getFullYear()} PMSA Wafy`;
+year.textContent = `© ${new Date().getFullYear()} Mueenudeen Baqavi Mundamparamb`;
+
+const TARGET_URL = "https://mueenudeenbaqavi.com";
 
 // Launch button action
 launchBtn.addEventListener("click", () => {
-  launchBtn.innerHTML = "<span>Launching...</span>";
+  launchBtn.innerHTML = "<span>Opening Website...</span>";
   launchBtn.style.pointerEvents = "none";
 
   setTimeout(() => {
-    window.location.href = "https://pmsawafy.vercel.app/";
-  }, 1200);
+    window.location.href = TARGET_URL;
+  }, 400);
 });
 
-// Optional keyboard shortcut (Enter key)
+// Keyboard shortcut (Enter key)
 document.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     launchBtn.click();
   }
-});
-
-// Smooth intro effect
-window.addEventListener("load", () => {
-  document.body.style.opacity = "1";
 });
