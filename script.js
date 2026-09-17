@@ -4,13 +4,13 @@ const launchBtn = document.getElementById("launchBtn");
 const year = document.getElementById("year");
 
 // Current year
-year.textContent = `© ${new Date().getFullYear()} Mueenudeen Baqavi Mundamparamb`;
+year.textContent = `© ${new Date().getFullYear()} Wafy Orbit`;
 
 const TARGET_URL = "https://mueenudeenbaqavi.com";
 
 // Launch button action
 launchBtn.addEventListener("click", () => {
-  launchBtn.innerHTML = "<span>Opening Website...</span>";
+  launchBtn.innerHTML = "<span>Connecting to Wafy Orbit...</span>";
   launchBtn.style.pointerEvents = "none";
 
   setTimeout(() => {
