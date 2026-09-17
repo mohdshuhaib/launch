@@ -6,7 +6,7 @@ const year = document.getElementById("year");
 // Current year
 year.textContent = `© ${new Date().getFullYear()} Wafy Orbit`;
 
-const TARGET_URL = "https://mueenudeenbaqavi.com";
+const TARGET_URL = "https://wafyorbit.vercel.app/";
 
 // Launch button action
 launchBtn.addEventListener("click", () => {
